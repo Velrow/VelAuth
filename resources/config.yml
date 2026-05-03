@@ -1,0 +1,22 @@
+max-login-attempts: 3
+
+session-duration: 604800
+
+enable-auto-login: true
+
+min-password-length: 6
+max-password-length: 32
+
+messages:
+  prefix: "§l§6VelAuth §r§8»§r"
+  register-success: "§aРегистрация успешна!"
+  login-success: "§aВход выполнен!"
+  logout-success: "§aВы вышли из аккаунта!"
+  password-changed: "§aПароль успешно изменен!"
+  invalid-password: "§cНеверный пароль!"
+  passwords-not-match: "§cПароли не совпадают!"
+  already-registered: "§cВы уже зарегистрированы!"
+  not-registered: "§cВы не зарегистрированы!"
+  must-login: "§cВы должны войти в систему!"
+  session-expired: "§cСессия истекла!"
+  too-many-attempts: "§cПревышено количество попыток входа!"

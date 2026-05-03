@@ -1,0 +1,24 @@
+name: VelAuth
+version: 1.0.0
+main: Velrow\VelAuth\VelAuth
+api: 5.0.0
+author: Velrow
+description: Modern authentication system with FormAPI
+website: https://github.com/Velrow/VelAuth
+
+depend:
+  - FormAPI
+
+commands:
+  auth:
+    description: Open VelAuth menu
+    usage: /auth
+    permission: velauth.use
+
+permissions:
+  velauth.use:
+    description: Use VelAuth commands
+    default: true
+  velauth.admin:
+    description: Administrative access
+    default: op
